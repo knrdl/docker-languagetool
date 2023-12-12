@@ -1,4 +1,4 @@
-FROM docker.io/eclipse-temurin:18-jre
+FROM docker.io/eclipse-temurin:21-jre
 
 RUN apt-get update && \
     apt-get install --yes hunspell hunspell-de-de hunspell-en-us unzip && \
