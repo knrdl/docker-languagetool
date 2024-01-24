@@ -15,6 +15,6 @@ VOLUME /ngrams
 
 WORKDIR /opt/LanguageTool
 
-CMD java -cp languagetool-server.jar org.languagetool.server.HTTPServer --port 8080 --allow-origin "*" --public --languageModel /ngrams
+CMD java -cp languagetool-server.jar org.languagetool.server.HTTPServer --port 8080 --allow-origin "*" --public --languageModel /ngrams --verbose
 
 EXPOSE 8080/tcp
